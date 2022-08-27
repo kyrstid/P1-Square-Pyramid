@@ -1,9 +1,3 @@
-print("DeaneP1")
-print("Programmer: Kyrsti Deane")
-print("Email: kdeane1@cnm.edu")
-print("Purpose: Pthyon program provides user capability to calculate the")
-print("volume and surface area of a pyramid")
-
 from math import sqrt
 
 length = float(input("Please input the sidelength in feet of the pyramid base: "))
