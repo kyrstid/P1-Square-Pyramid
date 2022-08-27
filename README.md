@@ -5,15 +5,15 @@ Write a python program to calculate the surface area and volume of a square pyra
 Write a program to calculate the surface area and volume of a square pyramid.
 A square pyramid has a base that is square and all triangle faces are congruent isosceles triangles. (An isosceles triangle is a triangle in which two of the sides are equal.)
 For this program you are to determine two things about a square pyramid:
-1) the surface area of the four sides, and 2) the volume. 
+    1) the surface area of the four sides, and 2) the volume. 
  	
 Length of base: a      Height of the pyramid: h
 Volume = a2h/3         Slant height, s  = sqrt(h2 + (a/2)2)  
 Area of one pyramid side = s*a/2
 
 |------  Test Cases:  ------|
-Pyramid #1:	  Height:  5.0’ 		Base: 2.5’
-Pyramid #2:	  Height:  2.5’ 		Base: 4.3’
+ Pyramid #1:	  Height:  5.0’ 		Base: 2.5’
+ Pyramid #2:	  Height:  2.5’ 		Base: 4.3’
 
 
 |------ Hand Calculations:  ------|
@@ -38,8 +38,7 @@ The volume of any pyramid is 1/3 the area of the base times the height.
          The volume of Pyramid #1 = 15.408333ft**3 (ft.sq.)
          
          
-   |--- Pythagorean Theory: ---|
-          a2 + b2 = c2
+   |--- Pythagorean Theory: ---|  a2 + b2 = c2
 
       Pyramid #1:
         (1/2 * base)**2 + (height**2) = c**2 
@@ -55,8 +54,7 @@ The volume of any pyramid is 1/3 the area of the base times the height.
             √10.8725 = c
             C = 3.2973474188 (Slant Height)
             
-   |--- Area: ---|
-     Area = 2bs + b**2
+   |--- Area: ---|  Area = 2bs + b**2
      
       Pyramid #1:
         A = 2 * (2.5 * 5.153882032) + (2.52) = 32.01941016 ft2.
